@@ -9,6 +9,7 @@ cd etl-addons
 cd ZellyLuas && git pull && cd ..
 curl -O http://regex.info/code/JSON.lua
 sudo cp -f -t /etc/xdg/etlegacy/etmain etl_server.cfg legacy.cfg
+sudo cp -f -t /usr/lib/etlegacy/legacy/omni-bot/et/user omni-bot.cfg
 sudo cp -f -t /usr/lib/etlegacy/legacy ZellyLuas/ZXpSave.lua JSON.lua
 cd ..
 

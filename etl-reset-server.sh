@@ -1,4 +1,8 @@
 #!/bin/bash
+
+sudo systemctl stop etlegacy
+sudo rm -rf /usr/lib/etlegacy/etmain/*.pk3 /usr/lib/etlegacy/legacy/*.pk3
+
 ./etl-update-server.sh
 
 # FTP Upload
